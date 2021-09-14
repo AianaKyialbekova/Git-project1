@@ -34,5 +34,36 @@ public class Solution {
     }
 }
 
+/* Классы Cat и Dog от Pet
+Унаследуйте классы Cat и Dog от Pet.
+Реализуйте недостающие методы. Классы Cat и Dog не должны быть абстрактными.
+*/
+
+public class Solution {
+    public static abstract class Pet {
+
+        public abstract String getName();
+
+        public abstract Pet getChild();
+    }
+
+    public static class Cat {
+     public abstract String getName(String name);
+     System.out.println("Vaska is a " + name);
+     public abstract Pet getChild();
+     System.out.println("Kitten of " + name);
+    }
+
+    public static class Dog {
+     public abstract String getName(String name);
+     System.out.println( is a " + name);
+     public abstract Pet getChild(name.getName());
+     System.out.println("Puppy");
+     }
+     class Dog extends Pet {
+     }  
+    }
+}
+
 
 
