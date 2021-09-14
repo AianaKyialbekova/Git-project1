@@ -1,1 +1,38 @@
+public class Solution {
+    public static class Pet {
+    private String name;
+        public String getName() {
+            return "Я котенок";
+        }
+        public Pet getChild(String name);
+        this.name = name.getName("cat");
+    }
+
+}
+
+/* Класс Cow от Animal
+Унаследуйте класс Cow от Animal.
+Реализуйте все недостающие методы в классе Cow.
+*/
+
+public class Solution {
+
+    static abstract class Animal {
+    private String name;
+        public abstract String getName();
+        return name;
+    }
+
+    public static class Cow (String name) {
+    this.name = name; 
+    if (name.equals ("Milka")) {
+    return "It is my cow.";
+    } else {
+    return "Show me another cow.";
+    }
+    class Cow extends Animal {
+    }
+}
+
+
 
